@@ -289,11 +289,13 @@ input:focus {
   align-items: center;
 }
 
-/* @media (max-height: 700px) and; /* @media (min-height: 800px) {
-  #image-holder {
-    height: 20%;
+@media (max-height: 667px) {
+  #info__temp,
+  #symbol {
+    font-size: 3rem;
+    font-weight: 900;
   }
-}  */
+}
 
 /* @media (min-width: 500px) {
   #info__temp,
