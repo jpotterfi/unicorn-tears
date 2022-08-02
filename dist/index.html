@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lookup</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght@300;400;500;600;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <script src="bundle.js" defer></script>
+  </head>
+  <body>
+    <input
+      type="text"
+      placeholder="Enter in a location..."
+      id="searchbar"
+      class="searchbar"
+    />
+    <div class="card col" id="card">
+      <div class="image-holder">
+        <img id="weather-image" />
+      </div>
+      <div id="info" class="col">
+        <div id="info__tempdouble" class="row">
+          <div id="info__temp"></div>
+          <div id="symbol"></div>
+        </div>
+        <div id="info__written"></div>
+        <div id="info__location"></div>
+        <div id="info__double" class="row">
+          <div id="info__datedouble">
+            <div id="info__dateheader">local date</div>
+            <div id="info__date"></div>
+          </div>
+          <div id="info__timedouble">
+            <div id="info__timeheader">local time</div>
+            <div id="info__time"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
