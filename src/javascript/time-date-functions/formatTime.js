@@ -2,7 +2,7 @@ function formatTime(time) {
   time = time.toString();
   let length = time.length;
   if (length == 2) {
-    let hour = "1" + ":";
+    let hour = "12" + ":";
 
     let minutes = time.slice(0, 2);
 
